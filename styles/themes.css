@@ -17,7 +17,9 @@
   --bg-third-color: #1a1a1a;
   --label-stroke: rgba(255, 255, 255, 0.5);
   --btn-text: #fff;
-}
+  --heart-sparks: #FF0000;
+  --heart-color: #FF0000;
+
   }
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,6 +35,9 @@
     --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
     --label-stroke: rgba(255, 255, 255, 0.5);
     --btn-text: #fff;
+    --heart-sparks: #FF0000;
+    --heart-color: #FF0000;
+  
   }
 }
 :root.theme-dark {
@@ -48,6 +53,9 @@
   --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
   --label-stroke: rgba(0, 0, 0, 0.5);
   --btn-text: #00CC14;
+  --heart-sparks: #FF0000;
+  --heart-color: #FF0000;
+
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -63,5 +71,8 @@
     --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
     --label-stroke: rgba(0, 0, 0, 0.5);
     --btn-text: #00CC14;
+    --heart-sparks: #FF0000;
+    --heart-color: #FF0000;
+  
   }
 }
