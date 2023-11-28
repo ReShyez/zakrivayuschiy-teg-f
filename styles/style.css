@@ -13,12 +13,16 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: var(--main-font);
+    font-weight: 400 785;
+  }
+}
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
-  font-variation-settings: 'wght' var(--main-wght);
   background-color: var(--bg-color);
   background-image: repeating-linear-gradient(
     to left,
