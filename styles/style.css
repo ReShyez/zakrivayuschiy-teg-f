@@ -36,7 +36,7 @@
   background-attachment: fixed;
 }
 .header {
-  font-family: 'PressStart2P-Regular';
+  font-family: 'PressStart2P-Regular', Arial, Helvetica, sans-serif;
   margin-block: 102px 100px;
   margin-inline: auto;
   inline-size: var(--inline-card-size);
@@ -168,7 +168,7 @@
 .card__watermark {
   z-index: 2;
   color: var(--accent-color, #000);
-  font-family: 'PressStart2P-Regular';
+  font-family: 'PressStart2P-Regular', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +203,7 @@ font-variation-settings: 'wght' var(--main-wght);
 .button {
   display: block;
   background-color: transparent;
-  font-family: 'PressStart2P-Regular';
+  font-family: 'PressStart2P-Regular'Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -262,7 +262,7 @@ font-variation-settings: 'wght' var(--main-wght);
 .button__hover:hover {
   cursor: pointer;
 }
-.button__hover:hover::after{
+.button__hover:hover::after {
   scale: 1;
 }
 /*кнопка с сердцем. Стилизация и анимация эфектов*/
