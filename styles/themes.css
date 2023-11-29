@@ -5,78 +5,74 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-  --main-font: 'Inter-Variable';
-  --accent-font:  'PressStart2P-Regular';
-  --main-wght: 400;
-  --title-wght: 700;
-  --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
-  --bg-color: #fff;
-  --accent-color: #000;
-  --bg-first-color: #d3d3d3;
-  --bg-sec-color: #e7e7e7;
-  --bg-third-color: #1a1a1a;
-  --label-stroke: rgba(255, 255, 255, 0.5);
-  --btn-text: #fff;
-  --heart-sparks: #FF0000;
-  --heart-color: #FF0000;
-  --image-shadow: transparent;
-  }
+	--main-font: 'Inter';
+	--accent-font: 'PressStart2P';
+	--main-wght: 400;
+	--title-wght: 700;
+	--inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
+	--bg-color: #fff;
+	--accent-color: #000;
+	--bg-first-color: #d3d3d3;
+	--bg-sec-color: #e7e7e7;
+	--bg-third-color: #1a1a1a;
+	--label-stroke: rgba(255, 255, 255, 0.5);
+	--btn-text: #fff;
+	--heart-sparks: #FF0000;
+	--heart-color: #FF0000;
+	--image-shadow: transparent;
+}
 @media (prefers-color-scheme: light) {
-  :root {
-    --main-font: 'Inter-Variable';
-    --accent-font:  'PressStart2P-Regular';
-    --main-wght: 400;
-    --title-wght: 700;
-    --bg-color: #fff;
-    --accent-color: #000;
-    --bg-first-color: #d3d3d3;
-    --bg-sec-color: #e7e7e7;
-    --bg-third-color: #1a1a1a;
-    --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
-    --label-stroke: rgba(255, 255, 255, 0.5);
-    --btn-text: #fff;
-    --heart-sparks: #FF0000;
-    --heart-color: #FF0000;
-    --image-shadow: transparent;
-  }
+	:root {
+		--main-font: 'Inter';
+		--accent-font: 'PressStart2P';
+		--main-wght: 400;
+		--title-wght: 700;
+		--bg-color: #fff;
+		--accent-color: #000;
+		--bg-first-color: #d3d3d3;
+		--bg-sec-color: #e7e7e7;
+		--bg-third-color: #1a1a1a;
+		--inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
+		--label-stroke: rgba(255, 255, 255, 0.5);
+		--btn-text: #fff;
+		--heart-sparks: #FF0000;
+		--heart-color: #FF0000;
+		--image-shadow: transparent;
+	}
 }
 :root.theme-dark {
-  --main-font: 'Inter-Variable';
-  --accent-font:  'PressStart2P-Regular';
-  --main-wght: 465;
-  --title-wght: 785;
-  --bg-color: #000;
-  --accent-color: #00CC14;
-  --bg-first-color: #000;
-  --bg-sec-color: #007f0c;
-  --bg-third-color: #004306;
-  --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
-  --label-stroke: rgba(0, 0, 0, 0.5);
-  --btn-text: #00CC14;
-  --heart-sparks: #FF0000;
-  --heart-color: #FF0000;
-  --image-shadow: #6b0899;
+	--main-font: 'Inter';
+	--accent-font: 'PressStart2P';
+	--main-wght: 465;
+	--title-wght: 785;
+	--bg-color: #000;
+	--accent-color: #00CC14;
+	--bg-first-color: #000;
+	--bg-sec-color: #007f0c;
+	--bg-third-color: #004306;
+	--inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
+	--label-stroke: rgba(0, 0, 0, 0.5);
+	--btn-text: #00CC14;
+	--heart-sparks: #FF0000;
+	--heart-color: #FF0000;
+	--image-shadow: #6b0899;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
-    --main-font: 'Inter-Variable';
-    --accent-font:  'PressStart2P-Regular';
-    --main-wght: 465;
-    --title-wght: 785;
-    --bg-color: #000;
-    --accent-color: #00CC14;
-    --bg-first-color: #000;
-    --bg-sec-color: #007f0c;
-    --bg-third-color: #004306;
-    --inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
-    --label-stroke: rgba(0, 0, 0, 0.5);
-    --btn-text: #00CC14;
-    --heart-sparks: #FF0000;
-    --heart-color: #FF0000;
-    --image-shadow: #6b0899;
-  }
+	:root {
+		--main-font: 'Inter';
+		--accent-font: 'PressStart2P';
+		--main-wght: 465;
+		--title-wght: 785;
+		--bg-color: #000;
+		--accent-color: #00CC14;
+		--bg-first-color: #000;
+		--bg-sec-color: #007f0c;
+		--bg-third-color: #004306;
+		--inline-card-size: clamp(23.438rem, 16.285rem + 30.517vw, 43.75rem);
+		--label-stroke: rgba(0, 0, 0, 0.5);
+		--btn-text: #00CC14;
+		--heart-sparks: #FF0000;
+		--heart-color: #FF0000;
+		--image-shadow: #6b0899;
+	}
 }
-
-
-
-
