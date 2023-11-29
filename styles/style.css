@@ -317,10 +317,6 @@
 	opacity: 0;
 }
 
-.like-icon {
-	cursor: pointer;
-}
-
 .like-icon:hover .core {
 	fill: var(--accent-color);
 	transition: fill 0.3s linear;
