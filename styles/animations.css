@@ -76,5 +76,5 @@
 }
 
 .like-icon.is-liked .sparks {
-	animation: scaleHeart 0.3s 1 ease-in 0.3s alternate;
+	animation: opacityHeart 0.3s 1 ease-in 0.3s alternate;
 }
